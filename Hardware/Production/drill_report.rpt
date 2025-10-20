@@ -1,0 +1,28 @@
+Drill report for SparkFun_IM19_IMU_Breakout_panelized.kicad_pcb
+Created on 2025-10-20T14:15:31+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SparkFun_IM19_IMU_Breakout_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.305mm  0.0120"  (798 holes)
+    T2  0.600mm  0.0236"  (24 holes)  (with 24 slots)
+    T3  1.016mm  0.0400"  (120 holes)
+
+    Total plated holes count 942
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  0.650mm  0.0256"  (12 holes)
+    T5  3.100mm  0.1220"  (24 holes)
+
+    Total unplated holes count 36
