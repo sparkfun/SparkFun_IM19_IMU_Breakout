@@ -62,7 +62,7 @@ local.properties
 *.s#?
 *.l#?
 *.lck
-
+*-backups/
 
 #############
 ## KiCad
