@@ -8774,7 +8774,7 @@
 		)
 		(uuid "a73b981d-0489-4e62-a873-e980c51f3d53")
 	)
-	(text "Voltage Regulation - PT9080-3.3"
+	(text "Voltage Regulation - RT9080-3.3"
 		(exclude_from_sim no)
 		(at 94.488 151.13 0)
 		(effects
