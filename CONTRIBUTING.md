@@ -1,4 +1,4 @@
-### How to Contribute
+## How to Contribute
 
 Thank you so *much* for offering to help out. We truly appreciate it.
 
@@ -10,6 +10,8 @@ If you are adding a feature to this library, please create a PR and follow these
 - If you add new functions also add them to keywords.txt so that they are properly highlighted in Arduino. [Read more](https://www.arduino.cc/en/Hacking/libraryTutorial).
 - PRs should change as little as possible. Do not submit a PR that changes 100 lines of whitespace. Break up into multiple PRs if necessary.
 
-## Style guide
+
+
+### Style guide
 
 Please read and follow the [Arduino API style guide](https://www.arduino.cc/en/Reference/APIStyleGuide). Also, read and consider the [Arduino style guide](https://www.arduino.cc/en/Reference/StyleGuide).

@@ -2,9 +2,17 @@
 ====================
 This folder should contain branding logos for the product documentation
 
-## General Images
+
+
+General Images
+--------------
+
 - `sparkpnt.svg` - SparkPNT logo
 - `sfe.svg` - SparkFun flame logo
 
-## SVG Optimizer
+
+
+SVG Optimizer
+-------------
+
 - [Remove meta data from svg](https://jakearchibald.github.io/svgomg/)

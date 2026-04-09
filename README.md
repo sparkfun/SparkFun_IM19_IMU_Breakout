@@ -32,9 +32,7 @@ Documentation
 -------------
 
 - **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_IM19_IMU_Breakout/)** - A hookup guide for the SparkFun IM19 IMU breakout board hosted by GitHub pages.<br>
-  [![Built with Docusaurus](https://img.shields.io/badge/Docusaurus_3.1-FFFF50?logo=Docusaurus&logoColor=#3ECC5F)](https://docusaurus.io/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml/badge.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml)
-
-
+	[![Built with Docusaurus](https://img.shields.io/badge/Docusaurus_3.1-FFFF50?logo=Docusaurus&logoColor=#3ECC5F)](https://docusaurus.io/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml/badge.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml)
 
 
 
@@ -42,16 +40,16 @@ Repository Contents
 -------------------
 
 - **[/docs](/docs/)** - Online documentation files
-  - [/assets](/docs/assets/) - Assets files
-    - [/3d_model](/docs/assets/3d_model/) - 3D models for the board
-    - [/board_files](/docs/assets/board_files/) - Design files for the board
-      - [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
-      - [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-      - [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
-    - [/component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
-    - [/img/hookup_guide](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation - Hookup guide images for the board
-    - /Hardware - Hardware design files (.brd, .sch)
-      - /Production - Production files
+	- [/assets](/docs/assets/) - Assets files
+		- [/3d_model](/docs/assets/3d_model/) - 3D models for the board
+		- [/board_files](/docs/assets/board_files/) - Design files for the board
+			- [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
+			- [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+			- [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+		- [/component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
+		- [/img/hookup_guide](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation - Hookup guide images for the board
+		- /Hardware - Hardware design files (.brd, .sch)
+			- /Production - Production files
 
 
 
