@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hookup Guide: SparkFun 9DoF IMU Breakout - IM19',
+  tagline: 'Get started with tilt-compensation for RTK GNSS positioning using the SparkFun IM19 IMU breakout board',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,17 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.sparkfun.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/SparkFun_IM19_IMU_Breakout/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sparkfun', // Usually your GitHub org/user name.
+  projectName: 'SparkFun_IM19_IMU_Breakout', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -42,25 +43,9 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,75 +55,112 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/banner-hookup_guide.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
+
+
+    // Header Content
     navbar: {
-      title: 'My Site',
+      title: 'SparkFun 9DoF IMU Breakout - IM19 Hookup Guide',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SparkFun Logo',
+        src: '.icons/sparkfun.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+        {
+          href: 'https://www.sparkfun.com',
+          position: 'right',
+          className: 'header-sparkfun-link',
+          'aria-label': 'SparkFun website'
+        },
+        {
+          href: 'https://community.sparkfun.com',
+          position: 'right',
+          className: 'header-forums-link',
+          'aria-label': 'SparkFun Community Forums',
+        },
+        {
+          href: 'https://docs.sparkfun.com',
+          position: 'right',
+          className: 'header-all-docs-link',
+          'aria-label': 'SparkFun Documentation',
         },
       ],
     },
+
+
+    // Footer Content
     footer: {
-      style: 'dark',
+      logo: {
+        alt: 'SparkFun Electronics',
+        src: '.icons/sparkfun-primary.svg',
+        href: 'https://www.sparkfun.com/'
+      },
       links: [
         {
-          title: 'Docs',
+          title: 'Product Page',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+              label: 'IM19 IMU Breakout Board',
+              href: 'https://www.sparkfun.com/sparkfun-9dof-imu-breakout-im19.html',
+            }
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Channels',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+              html: `
+<table style="border:none; border-collapse:collapse;">
+  <tr style="border:none;">
+  <td style="border:none; padding:0;">
+    <a href="https://www.youtube.com/sparkfun" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on YouTube">
+    <img src=".icons/social-youtube.svg" class="social-image" alt="SparkFun on YouTube" width="32" height="32" />
+    </a>
+  </td>
+  <td style="border:none; padding:0;">
+    <a href="https://www.github.com/sparkfun" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on GitHub">
+    <img src=".icons/social-github.svg" class="social-image" alt="SparkFun on GitHub" width="32" height="32" />
+    </a>
+  </td>
+  <td style="border:none; padding:0;">
+    <a href="https://www.instagram.com/sparkfun/" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on Instagram">
+    <img src=".icons/social-instagram.svg" class="social-image" alt="SparkFun on Instagram" width="32" height="32" />
+    </a>
+  </td>
+  <td style="border:none; padding:0;">
+    <a href="https://twitter.com/sparkfun" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on Twitter">
+    <img src=".icons/social-twitter.svg" class="social-image" alt="SparkFun on Twitter" width="32" height="32" />
+    </a>
+  </td>
+  </tr>
+</table>`
+            }
           ],
         },
         {
-          title: 'More',
+          title: 'SparkFun',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Community Forum',
+              href: 'https://community.sparkfun.com/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'SparkFun.com',
+              href: 'https://www.sparkfun.com/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SparkFun Electronics`,
     },
     prism: {
       theme: prismThemes.github,
