@@ -8,7 +8,7 @@ General Images
 --------------
 
 - `sparkpnt.svg` - SparkPNT logo
-- `sfe.svg` - SparkFun flame logo
+- `sparkfun.svg` - SparkFun flame logo
 
 
 
