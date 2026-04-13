@@ -18,7 +18,7 @@ For your first visit to our forum, you'll need to create a [Forum Account](https
 
 
 ## Did we make a mistake?
-Spot something wrong? Please let us know. [![Open Issues Badge](https://img.shields.io/github/issues/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/issues "Issues")
+Spot something wrong? Please let us know. [![Open Issues Badge](https://img.shields.io/github/issues/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/issues)
 
 
 

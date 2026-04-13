@@ -37,7 +37,7 @@ The UART ports of the IM19 attitude module have the following default configurat
 
 
 :::tip
-The breakout board also includes a digital switch, to isolate the CH342 and allow users to access these UART ports through their breakout pins. To activate the digital switch and utilize the UART ports through their breakout pins, users can [close the `CH342 EN` jumper](#jumpers) or pull the`CH342 EN` pin `LOW`. This disables the CH342 and disconnects the CH342 from the `UART1` and `UART2` ports of the IM19 attitude module, avoiding any bus contention issues.
+The breakout board also includes a digital switch, to isolate the CH342 and allow users to access these UART ports through their breakout pins. To activate the digital switch and utilize the UART ports through their breakout pins, users can [close the `CH342 EN` jumper](hardware_overview.md#jumpers) or pull the`CH342 EN` pin `LOW`. This disables the CH342 and disconnects the CH342 from the `UART1` and `UART2` ports of the IM19 attitude module, avoiding any bus contention issues.
 :::
 
 

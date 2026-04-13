@@ -7,32 +7,22 @@ description: Overview of the board design, components, and interfaces
 The SparkFun 9DoF IMU Breakout - IM19 features the following:
 
 
-<div class="grid">
-
-<div>
-
 <figure>
 [![Layout](/img/hookup_guide/layout.png)](/img/hookup_guide/layout.png)
 <figcaption>Layout of the major components on the breakout board.</figcaption>
 </figure>
 
-</div>
-
-
-<div>
 
 1. **[USB-C Connector](#usb-c-connector)**
 :   The primary inteface for powering and interacting with the board
 1. **[IM19 Attitude Module](#im19-attitude-module)**
 :   The Feyman IM19 Attitude Module
 1. **Header Pins**
-:   Exposes pins to [power the board](#power) and breaks out the [interfaces of the IM19 attitude module](#gpio)
+:   Exposes pins to [power the board](#power) and breaks out the [interfaces of the IM19 attitude module](#io-pins)
 1. **[JST Connector](#jst-connector)**
 :   Exposes the `UART3` interface of the IM19 attitude module
 
-</div>
 
-</div>
 
 
 
@@ -78,7 +68,7 @@ A USB driver is not required for Linux based operating systems.
 
 
 ## Power
-The IM19 breakout board only requires **3.3V** to power all of the board's components. The simplest method to power the board is through the USB-C connector. Alternatively, the board can also be powered through the other connectors and [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins.
+The IM19 breakout board only requires **3.3V** to power all of the board's components. The simplest method to power the board is through the USB-C connector. Alternatively, the board can also be powered through the other connectors and [PTH](https://en.wikipedia.org/wiki/Through-hole_technology) pins.
 
 
 <figure>
@@ -87,10 +77,8 @@ The IM19 breakout board only requires **3.3V** to power all of the board's compo
 </figure>
 
 
-Below, is a general summary of the power circuitry on the board, broken out as [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins:
+Below, is a general summary of the power circuitry on the board, broken out as [PTH](https://en.wikipedia.org/wiki/Through-hole_technology) pins:
 
-
-<div class="annotate">
 
 - **`VUSB`** - The voltage from the USB-C connector, usually **5V**
 	- Input Voltage Range: 4.4 - 5.5 V
@@ -98,7 +86,7 @@ Below, is a general summary of the power circuitry on the board, broken out as [
 		- Powers the 3.3V voltage regulator (RT9080), which can source up to 600mA
 		- When enabled, it can also power the [JST connector](#jst-connector) *(see the **[Jumpers](#jumpers)** section)*
 - **`VIN`** - Alternate input supply voltage for the board
-	- Input Voltage Range: 1.2 - 5.5V (1)
+	- Input Voltage Range: 3.5 - 5.5V
 	- Power source for the entire board
 		- Powers the 3.3V voltage regulator (RT9080), which can source up to 600mA
 		- When enabled, it can also power the [JST connector](#jst-connector) *(see the **[Jumpers](#jumpers)** section)*
@@ -111,14 +99,16 @@ Below, is a general summary of the power circuitry on the board, broken out as [
 	- Driving the pin `LOW` for 10ms triggers a restart of the IM19 module
 - **`GND`** - The common ground or the 0V reference for the voltage supplies
 
-</div>
 
-1. While the [RT9080](/component_documentation/RT9080.pdf) LDO regulator has an input voltage range of 1.2 - 5.5V, a minimum supply voltage of **3.5V** is recommended for a 3.3V output.
+:::info[Input Voltage]
+While the [RT9080](/component_documentation/RT9080.pdf) LDO regulator has an input voltage range of 1.2 - 5.5V, a minimum supply voltage of **3.5V** is recommended for a 3.3V output.
+:::
 
 
 :::tip[JST Connector]
 The `VCC` pin of the of the [JST connector](#jst-connector) is designed to operate as a voltage output. An input voltage can be supplied through the connector; however, users should be mindful of any voltage contention issues. Additionally, users can modify the [`VCC` jumper](#jumpers) to change the output voltage level of these pins.
 :::
+
 
 :::info
 For more details, users can reference the [schematic](/board_files/schematic.pdf) and the datasheets of the individual components on the board.
@@ -133,6 +123,7 @@ The [IM19 attitude module](/component_documentation/IM19EI_v1.4.1.pdf) from [Fey
 
 
 **Features:**
+
 
 - Power: 0.33W
 	- Voltage Range: 3.0 to 3.6V
@@ -210,6 +201,7 @@ With the origin point of the IMU in the IM19 attitude module, users can determin
 #### Calibration & Initialization
 Once the IM19 attitude module has been configured, it must go through an initialization process to calibrate the module. As demonstrated in the videos below, user need to give the IM19 attitude module a vigorous shake to initialize the calibration process. Once initialized, users need to:
 
+
 1. Shake to initialize calibration
 1. Swing the module back and forth *(3-5sec)*
 1. Rotate the device 90&deg;
@@ -241,7 +233,7 @@ It is recommended that the IM19 module is placed in a stable temperature region 
 
 
 ### I/O Pins
-The headers on the board, breakout the I/O pins of the IM19 attitude module. The [UART interfaces](#uart-interfacess) of the IM19 are also connected to the [CH342 USB-to-serial converter](#ch342-converter) and [JST connector](#jst-connector) on the board.
+The headers on the board, breakout the I/O pins of the IM19 attitude module. The [UART interfaces](#uart-interfaces) of the IM19 are also connected to the [CH342 USB-to-serial converter](#ch342-converter) and [JST connector](#jst-connector) on the board.
 
 
 <figure>
@@ -278,7 +270,7 @@ Below is a summary of these I/O pins and their operation:
 
 
 ## Header Pins
-The headers on the board, breakout the [I/O pins of the IM19 attitude module](#io-pins), the [power pins](#power), [UART interfaces](#uart-interfacess), and `CH342_EN` UART control pin.
+The headers on the board, breakout the [I/O pins of the IM19 attitude module](#io-pins), the [power pins](#power), [UART interfaces](#uart-interfaces), and `CH342_EN` UART control pin.
 
 
 <figure>
@@ -299,7 +291,8 @@ The three UART interfaces of the IM19 attitude module are broken out to the head
 
 
 :::info[Settings and Configuration]
-The UART ports are configured through [AT-commands](#software_overview.md#at-commands), which are summarized below. However, it should be noted that the baud rate of the ports cannot be configured. By default, the baud rate is hard-coded to **115200bps**.
+The UART ports are configured through [AT-commands](software_overview.md#at-commands), which are summarized below. However, it should be noted that the baud rate of the ports cannot be configured. By default, the baud rate is hard-coded to **115200bps**.
+
 
 - **Baud Rate:** 115200bps
 - **AT-Commands:**
@@ -322,6 +315,7 @@ The UART ports are configured through [AT-commands](#software_overview.md#at-com
 ::::note
 By default, the `UART2` port is configured to receive the GNSS data required for the tilt-compensation. Whereas the default configuration of the `UART1` and `UART3` ports, the ports have the same functions. They can be connected to the main processor an/or used as a debugging, firmware upgrade, or configuration interface.
 
+
 - `UART1` - Connect to host device
 	- Configuration, message output, and firmware upgrade
 - `UART2` - Connect GNSS board
@@ -337,6 +331,7 @@ By default, the `UART2` port is configured to receive the GNSS data required for
 
 :::info
 For the UART interface sending the GNSS messages to the IM19 breakout board, users will need to configure the UART port with the following settings:
+
 
 - Baudrate: 115200bps
 - Output NMEA Messages: `GPGGA`, `GPRMC`, and `GPGST`
@@ -365,6 +360,7 @@ The `AT+SET_PPS_EDGE` AT-command configures the edge detection parameter for the
 
 ### Boot/RST Pins
 The `BOOT` and `RST` pins are, respectively, used to update or reset the IM19 attitude module.
+
 
 - The `BOOT` pin can be toggled `HIGH`, when powering up the IM19 breakout board. This enables boot mode to update the IM19 attitude module's firmware through the UART interface.
 - The `RST` pin can be pulled `LOW` for 10ms to IM19 attitude module.
@@ -456,7 +452,7 @@ Users will need to configure the baud rate of the attach devices to match the UA
 ## Jumpers
 
 :::note[Never modified a jumper before?]
-Check out our <a href="https://learn.sparkfun.com/tutorials/664">Jumper Pads and PCB Traces tutorial</a> for a quick introduction!
+Check out our [Jumper Pads and PCB Traces tutorial](https://learn.sparkfun.com/tutorials/664) for a quick introduction!
 :::
 
 There are five jumpers on these board that can be used to easily modify the hardware connections.
