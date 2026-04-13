@@ -6,6 +6,7 @@ description: Instructions for product integration
 ## Recommended Setup
 By default, the `UART2` port is configured to receive the GNSS data required for the tilt-compensation. Whereas the default configuration of the `UART1` and `UART3` ports, the ports have the same functions. They can be connected to the main processor an/or used as a debugging, firmware upgrade, or configuration interface.
 
+
 - `UART1` - Connect to host device
 	- Configuration, message output, and firmware upgrade
 - `UART2` - Connect GNSS board
