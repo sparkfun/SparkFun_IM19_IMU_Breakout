@@ -31,8 +31,8 @@ The 1.7" x 1.7" PCB is the same size as some of our RTK GNSS Boards, making it e
 Documentation
 -------------
 
-- **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_IM19_IMU_Breakout/)** - A hookup guide for the SparkFun IM19 IMU breakout board hosted by GitHub pages.<br>
-	[![Built with Docusaurus](https://img.shields.io/badge/Docusaurus_3.1-FFFF50?logo=Docusaurus&logoColor=#3ECC5F)](https://docusaurus.io/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml/badge.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml)
+- **[Hookup Guide (docusaurus)](http://docs.sparkfun.com/SparkFun_IM19_IMU_Breakout/)** - A hookup guide for the SparkFun IM19 IMU breakout board hosted by GitHub pages.<br>
+	[![Built with Docusaurus](https://img.shields.io/badge/Docusaurus_3.10-FFFF50?logo=Docusaurus&logoColor=#3ECC5F)](https://docusaurus.io/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml/badge.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/actions/workflows/ghpages-deploy.yml)
 
 
 

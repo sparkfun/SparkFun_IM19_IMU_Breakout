@@ -260,8 +260,6 @@ sdist
 develop-eggs
 .installed.cfg
 
-# Icon must ends with two \r.
-Icon
 
 # Installer logs
 pip-log.txt

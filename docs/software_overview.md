@@ -3,13 +3,16 @@ title: Software Overview
 description: A guide on recommended software
 ---
 
+import Link from '@docusaurus/Link';
+
+
 
 ## CH342 USB Driver
 The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the [manufacturer's website](https://www.wch-ic.com/search?q=CH342&t=downloads).
 
 
-- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH343SER.EXE`](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
-- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH341SER_MAC.ZIP`](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH343SER_EXE.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH343SER.EXE`</Link>
+- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH341SER_MAC.ZIP`</Link>
 
 
 :::info[Linux]
@@ -191,6 +194,8 @@ SparkFun IM19 IMU Arduino Library
 For users who would like to manually download and install the library, the `*.zip` file can be accessed from the [GitHub repository](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library) or downloaded by clicking the button below.
 
 
-- <Icon icon="octicon:download-16" width="16" height="16" /> [Download the Arduino Library](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library/archive/refs/heads/main.zip)
+<p className="text--center">
+<Link className="button button--medium button--primary" link="https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library/archive/refs/heads/main.zip"><Icon icon="octicon:download-16" width="16" height="16" /> Download the Arduino Library</Link>
+</p>
 
 :::

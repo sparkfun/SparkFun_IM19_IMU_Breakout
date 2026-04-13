@@ -99,9 +99,9 @@ const config: Config = {
       // Optional: path for search page that enabled by default (`false` to disable it)
       searchPagePath: 'search',
 
-      // only search in the SparkFun DataLogger documentation - restrict on the section facet
+      // only search in the SparkFun IM19 IMU documentation - restrict on the section facet
       searchParameters: {
-        facetFilters: ['section:SparkFun_IM19_IMU Breakout'],
+        facetFilters: ['section:SparkFun_IM19_IMU_Breakout'],
       },
 
     },

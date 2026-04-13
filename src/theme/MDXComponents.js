@@ -19,7 +19,7 @@ import { Icon } from '@iconify/react'; // Import the entire Iconify library.
 
 // Import DocCardList components
 // Run `npm run swizzle @docusaurus/theme-classic DocCard -- --eject` to remove the default DocCard component
-// Modify `index.js` to allow the use of emojis and Iconify icons in the heading of the DocCard component
+// Modify `index.tsx` to allow the use of emojis and Iconify icons in the heading of the DocCard component
 import DocCardList from '@theme/DocCardList';
 
 

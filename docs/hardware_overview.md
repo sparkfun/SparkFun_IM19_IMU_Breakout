@@ -3,6 +3,10 @@ title: Hardware Overview
 description: Overview of the board design, components, and interfaces
 ---
 
+import Link from '@docusaurus/Link';
+
+
+
 ## Board Layout
 The SparkFun 9DoF IMU Breakout - IM19 features the following:
 
@@ -24,8 +28,6 @@ The SparkFun 9DoF IMU Breakout - IM19 features the following:
 
 
 
-
-
 ## USB-C Connector
 The USB connector is provided to power and interface with the IM19 attitude module. For most users, it will be the primary method for communicating with the IMU.
 
@@ -38,7 +40,7 @@ The USB connector is provided to power and interface with the IM19 attitude modu
 
 
 ### CH342 Converter
-The CH342 serial-to-USB converter allows users to interface with the `UART1` and `UART2` ports of the IM19 attitude module through the USB-C connector. The breakout board also includes a digital switch, to isolate the CH342 and allow users to access these UART ports through their breakout pins. To utilize the CH342, users may need to install a USB driver, which can be downloaded from the [manufacturer website](https://www.wch-ic.com/search?q=CH342&t=downloads). Once the USB driver is installed:
+The [CH342 serial-to-USB converter](/component_documentation/CH342_Datasheet.pdf) allows users to interface with the `UART1` and `UART2` ports of the IM19 attitude module through the USB-C connector. The breakout board also includes a digital switch, to isolate the CH342 and allow users to access these UART ports through their breakout pins. To utilize the CH342, users may need to install a USB driver, which can be downloaded from the [manufacturer website](https://www.wch-ic.com/search?q=CH342&t=downloads). Once the USB driver is installed:
 
 - Two virtual `COM` ports will be emulated, which can be used as standard `COM` ports to access the IM19 attitude module.
 	- `Channel A`: `UART1` of the IM19 attitude module
@@ -56,8 +58,9 @@ To activate the digital switch and utilize the UART ports through their breakout
 
 ::::tip[USB Drivers]
 
-- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH343SER.EXE`](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
-- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH341SER_MAC.ZIP`](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+
+- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH343SER_EXE.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH343SER.EXE`</Link>
+- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH341SER_MAC.ZIP`</Link>
 
 
 :::info[Linux]
@@ -446,6 +449,16 @@ When connecting the IM19 breakout board to other products, users should be aware
 :::tip[Baud Rate]
 Users will need to configure the baud rate of the attach devices to match the UART port of the IM19 attitude module, which are set to **115200bps**.
 :::
+
+
+
+## Status LEDs
+There is a red `PWR` status LED on the IM19 breakout board, which indicates when the board is powered. It turns on once 3.3V power is supplied to the board
+
+<figure>
+[![Status LEDs](/img/hookup_guide/LEDs.png)](/img/hookup_guide/LEDs.png "Click to enlarge")
+<figcaption>The `PWR` status LED indicator on the IM19 breakout board.</figcaption>
+</figure>
 
 
 

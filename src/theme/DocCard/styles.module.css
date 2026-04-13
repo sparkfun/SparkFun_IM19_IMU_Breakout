@@ -19,7 +19,7 @@
 }
 
 .cardTitle {
-  display: inline-flex; /* Allows icon and text to be on the same line */
+  display: inline-block; /* Allows icon and text to be on the same line */
   font-size: 1.2rem;
 }
 
