@@ -18,7 +18,7 @@ The SparkFun 9DoF IMU Breakout - IM19 features the following:
 1. **[IM19 Attitude Module](#im19-attitude-module)**
 :   The Feyman IM19 Attitude Module
 1. **Header Pins**
-:   Exposes pins to [power the board](#power) and breaks out the [interfaces of the IM19 attitude module](#gpio)
+:   Exposes pins to [power the board](#power) and breaks out the [interfaces of the IM19 attitude module](#io-pins)
 1. **[JST Connector](#jst-connector)**
 :   Exposes the `UART3` interface of the IM19 attitude module
 
@@ -233,7 +233,7 @@ It is recommended that the IM19 module is placed in a stable temperature region 
 
 
 ### I/O Pins
-The headers on the board, breakout the I/O pins of the IM19 attitude module. The [UART interfaces](#uart-interfacess) of the IM19 are also connected to the [CH342 USB-to-serial converter](#ch342-converter) and [JST connector](#jst-connector) on the board.
+The headers on the board, breakout the I/O pins of the IM19 attitude module. The [UART interfaces](#uart-interfaces) of the IM19 are also connected to the [CH342 USB-to-serial converter](#ch342-converter) and [JST connector](#jst-connector) on the board.
 
 
 <figure>
@@ -270,7 +270,7 @@ Below is a summary of these I/O pins and their operation:
 
 
 ## Header Pins
-The headers on the board, breakout the [I/O pins of the IM19 attitude module](#io-pins), the [power pins](#power), [UART interfaces](#uart-interfacess), and `CH342_EN` UART control pin.
+The headers on the board, breakout the [I/O pins of the IM19 attitude module](#io-pins), the [power pins](#power), [UART interfaces](#uart-interfaces), and `CH342_EN` UART control pin.
 
 
 <figure>
@@ -291,7 +291,7 @@ The three UART interfaces of the IM19 attitude module are broken out to the head
 
 
 :::info[Settings and Configuration]
-The UART ports are configured through [AT-commands](#software_overview.md#at-commands), which are summarized below. However, it should be noted that the baud rate of the ports cannot be configured. By default, the baud rate is hard-coded to **115200bps**.
+The UART ports are configured through [AT-commands](software_overview.md#at-commands), which are summarized below. However, it should be noted that the baud rate of the ports cannot be configured. By default, the baud rate is hard-coded to **115200bps**.
 
 
 - **Baud Rate:** 115200bps
