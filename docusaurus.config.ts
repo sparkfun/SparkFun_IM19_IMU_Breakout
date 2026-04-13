@@ -30,7 +30,7 @@ const config: Config = {
   organizationName: 'sparkfun', // Usually your GitHub org/user name.
   projectName: 'SparkFun_IM19_IMU_Breakout', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
@@ -48,6 +48,8 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl: 'https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/tree/main/',
           routeBasePath: '/',
         },
         blog: false,
