@@ -8,7 +8,7 @@ The SparkFun 9DoF IMU Breakout - IM19 features the following:
 
 
 <figure>
-[![Layout](/img/hookup_guide/layout.png)](/img/hookup_guide/layout.png)
+![Layout](/img/hookup_guide/layout.png)
 <figcaption>Layout of the major components on the breakout board.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ The USB connector is provided to power and interface with the IM19 attitude modu
 
 
 <figure>
-[![USB-C Connector](/img/hookup_guide/usb_connector.png)](/img/hookup_guide/usb_connector.png)
+![USB-C Connector](/img/hookup_guide/usb_connector.png)
 <figcaption>The USB-C connector on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ The CH342 serial-to-USB converter allows users to interface with the `UART1` and
 
 
 <figure>
-[![CH342](/img/hookup_guide/uart-ch342.png)](/img/hookup_guide/uart-ch342.png)
+![CH342](/img/hookup_guide/uart-ch342.png)
 <figcaption>The interface connections of the CH342 serial-to-USB converter.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ The IM19 breakout board only requires **3.3V** to power all of the board's compo
 
 
 <figure>
-[![Power connections](/img/hookup_guide/power_connections.png)](/img/hookup_guide/power_connections.png)
+![Power connections](/img/hookup_guide/power_connections.png)
 <figcaption>IM19 breakout board's power connections.</figcaption>
 </figure>
 
@@ -155,7 +155,7 @@ In order to provide a tilt-compensated position, the IM19 attitude module requir
 
 
 <figure>
-[![GNSS Integration](/img/hookup_guide/integration-gnss.png)](/img/hookup_guide/integration-gnss.png)
+![GNSS Integration](/img/hookup_guide/integration-gnss.png)
 <figcaption>A GNSS receiver sending the required data to the IM19 attitude module.</figcaption>
 </figure>
 
@@ -166,13 +166,13 @@ The measurements below are general guidelines for the position of the IMU inside
 
 
 <figure>
-[![IMU offset](/img/hookup_guide/im19-origin.png)](/img/hookup_guide/im19-origin.png)
+![IMU offset](/img/hookup_guide/im19-origin.png)
 <figcaption>The IMU origin, with respect to the IM19 attitude module and the PCB.</figcaption>
 </figure>
 
 
 <figure>
-[![IMU offset height](/img/hookup_guide/im19-height-small.png)](/img/hookup_guide/im19-height.png)
+![IMU offset height](/img/hookup_guide/im19-height-small.png)
 <figcaption>The IMU origin, as viewed from the side of the IM19 IMU breakout board.</figcaption>
 </figure>
 
@@ -181,7 +181,7 @@ In reference to the breakout board, the IMU's origin on the X/Y-axes is centered
 
 
 <figure>
-[![IMU origin marked](/img/hookup_guide/im19-origin_bottom.png)](/img/hookup_guide/im19-origin_bottom.png)
+![IMU origin marked](/img/hookup_guide/im19-origin_bottom.png)
 <figcaption>The IMU origin marked on the bottom of the IM19 IMU breakout board.</figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ With the origin point of the IMU in the IM19 attitude module, users can determin
 
 
 <figure>
-[![Vector points](/img/hookup_guide/vector_points.png)](/img/hookup_guide/vector_points.png)
+![Vector points](/img/hookup_guide/vector_points.png)
 <figcaption>The points for the `CLUB_VECTOR` and `LEVER_ARM` vector. (Source: [Septentrio](https://customersupport.septentrio.com/articles/Knowledge/ARP-APC-offsets))</figcaption>
 </figure>
 
@@ -237,7 +237,7 @@ The headers on the board, breakout the I/O pins of the IM19 attitude module. The
 
 
 <figure>
-[![I/O pins](/img/hookup_guide/im19-gpio.png)](/img/hookup_guide/im19-gpio.png)
+![I/O pins](/img/hookup_guide/im19-gpio.png)
 <figcaption>The I/O pins for the IM19 attitude module on breakout board.</figcaption>
 </figure>
 
@@ -274,7 +274,7 @@ The headers on the board, breakout the [I/O pins of the IM19 attitude module](#i
 
 
 <figure>
-[![Header pins](/img/hookup_guide/headers.png)](/img/hookup_guide/headers.png)
+![Header pins](/img/hookup_guide/headers.png)
 <figcaption>The header pins on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -285,7 +285,7 @@ The three UART interfaces of the IM19 attitude module are broken out to the head
 
 
 <figure>
-[![UART Interfaces](/img/hookup_guide/uart-interface.png)](/img/hookup_guide/uart-interface.png)
+![UART Interfaces](/img/hookup_guide/uart-interface.png)
 <figcaption>The UART interfaces of the IM19 breakout board.</figcaption>
 </figure>
 
@@ -324,7 +324,7 @@ By default, the `UART2` port is configured to receive the GNSS data required for
 
 
 <figure>
-[![System Integration](/img/hookup_guide/integration-host.png)](/img/hookup_guide/integration-host.png)
+![System Integration](/img/hookup_guide/integration-host.png)
 <figcaption>System integration of the IM19 breakout board, with the default configuration.</figcaption>
 </figure>
 
@@ -347,7 +347,7 @@ The `PPS` pin needs to be connected to the PPS signal from the GNSS receiver. It
 
 
 <figure>
-[![PPS pin](/img/hookup_guide/pps.png)](/img/hookup_guide/pps.png)
+![PPS pin](/img/hookup_guide/pps.png)
 <figcaption>The `PPS` pin on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -367,7 +367,7 @@ The `BOOT` and `RST` pins are, respectively, used to update or reset the IM19 at
 
 
 <figure>
-[![Boot and reset pins](/img/hookup_guide/boot_reset.png)](/img/hookup_guide/boot_reset.png)
+![Boot and reset pins](/img/hookup_guide/boot_reset.png)
 <figcaption>The `BOOT` and `RST` pins on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -378,7 +378,7 @@ The `GPIO` pin is an ouput pin; its suggested use is an audio indicator, with a 
 
 
 <figure>
-[![GPIO pin](/img/hookup_guide/gpio.png)](/img/hookup_guide/gpio.png)
+![GPIO pin](/img/hookup_guide/gpio.png)
 <figcaption>The `GPIO` pin on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -389,7 +389,7 @@ The JST-GH connector is used to access the [`UART3` interface](#uart-interfaces)
 
 
 <figure>
-[![JST connector](/img/hookup_guide/jst_connector.png)](/img/hookup_guide/jst_connector.png)
+![JST connector](/img/hookup_guide/jst_connector.png)
 <figcaption>The JST-GH connector on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -399,7 +399,7 @@ When connecting the IM19 breakout board to other products, users should be aware
 
 
 <figure>
-[![JST connector pin layout](/img/hookup_guide/jst-4_pin.png)](/img/hookup_guide/jst-4_pin.png)
+![JST connector pin layout](/img/hookup_guide/jst-4_pin.png)
 <figcaption>The pin layout of the JST connector on the IM19 breakout board.</figcaption>
 </figure>
 
@@ -459,7 +459,7 @@ There are five jumpers on these board that can be used to easily modify the hard
 
 
 <figure>
-[![Jumpers](/img/hookup_guide/jumpers.png)](/img/hookup_guide/jumpers.png)
+![Jumpers](/img/hookup_guide/jumpers.png)
 <figcaption>The jumpers on the bottom of the BlueSMiRF v2.</figcaption>
 </figure>
 

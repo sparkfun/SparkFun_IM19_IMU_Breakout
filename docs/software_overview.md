@@ -143,7 +143,7 @@ Before users can connect to the IM19 breakout board, they will need to specify t
 
 
 <figure>
-[![UART Settings in PyGPSClient](/img/hookup_guide/pygpsclient-uart_settings-small.png)](/img/hookup_guide/pygpsclient-uart_settings-small.png)
+![UART Settings in PyGPSClient](/img/hookup_guide/pygpsclient-uart_settings-small.png)
 <figcaption>Specify the settings for the UART port in PyGPSClient.</figcaption>
 </figure>
 
@@ -180,7 +180,7 @@ SparkFun IM19 IMU Arduino Library
 ```
 
 <figure>
-[![Library listed in the library manager of the Arduino IDE](/img/hookup_guide/arduino_library.png)](/img/hookup_guide/arduino_library.png)
+![Library listed in the library manager of the Arduino IDE](/img/hookup_guide/arduino_library.png)
 <figcaption>SparkFun IM19 IMU Arduino Library in the library manager of the Arduino IDE.</figcaption>
 </figure>
 

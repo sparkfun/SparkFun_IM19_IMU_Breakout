@@ -14,7 +14,7 @@ By default, the `UART2` port is configured to receive the GNSS data required for
 
 
 <figure>
-[![System Integration](/img/hookup_guide/integration-host.png)](/img/hookup_guide/integration-host.png)
+![System Integration](/img/hookup_guide/integration-host.png)
 <figcaption>System integration of the IM19 breakout board, with the default configuration.</figcaption>
 </figure>
 

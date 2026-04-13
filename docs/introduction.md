@@ -4,7 +4,7 @@ slug: /
 ---
 
 <figure>
-[![Hookup Guide - Thumbnail](/img/banner-hookup_guide.png)](/img/banner-hookup_guide.png)
+![Hookup Guide - Thumbnail](/img/banner-hookup_guide.png)
 </figure>
 
 
