@@ -2,6 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+// our search keys
+const appKey = process.env.ALGOLIA_APP_KEY;
+const appID = process.env.ALGOLIA_APPID;
+const indexName = process.env.ALGOLIA_INDEX_NAME
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -58,6 +63,26 @@ const config: Config = {
     image: 'img/banner-hookup_guide.png',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+
+
+    algolia: {
+      // The application ID provided by Algolia
+      appId: appID,
+      apiKey: appKey,
+      indexName: indexName,
+
+      // Optional: see doc section below
+      contextualSearch: false,
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      // only search in the SparkFun DataLogger documentation - restrict on the section facet
+      searchParameters: {
+        facetFilters: ['section:SparkFun_IM19_IMU Breakout'],
+      },
+
     },
 
 
