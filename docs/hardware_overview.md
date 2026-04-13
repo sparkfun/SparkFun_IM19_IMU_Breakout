@@ -78,7 +78,7 @@ A USB driver is not required for Linux based operating systems.
 
 
 ## Power
-The IM19 breakout board only requires **3.3V** to power all of the board's components. The simplest method to power the board is through the USB-C connector. Alternatively, the board can also be powered through the other connectors and [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins.
+The IM19 breakout board only requires **3.3V** to power all of the board's components. The simplest method to power the board is through the USB-C connector. Alternatively, the board can also be powered through the other connectors and [PTH](https://en.wikipedia.org/wiki/Through-hole_technology) pins.
 
 
 <figure>
@@ -87,7 +87,7 @@ The IM19 breakout board only requires **3.3V** to power all of the board's compo
 </figure>
 
 
-Below, is a general summary of the power circuitry on the board, broken out as [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins:
+Below, is a general summary of the power circuitry on the board, broken out as [PTH](https://en.wikipedia.org/wiki/Through-hole_technology) pins:
 
 
 <div class="annotate">

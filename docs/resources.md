@@ -14,7 +14,7 @@ description: Design files, schematic, datasheets, manuals, software resources, e
 - <Icon icon="simple-arduino" width="16" height="16" /> [SparkFun IM19 Tilt Sensor Arduino Library](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library)
 - Component Documentation
 	- <Icon icon="fa7-solid:file-pdf" width="16" height="16" /> [IM19 Datasheet](/component_documentation/IM19.pdf)
-		- <Icon icon="fa7-solid:file-pdf" width="16" height="16" /> [IM19 Product Integration Guide](/component_documentation/IM19EI_v1.4.1)
+		- <Icon icon="fa7-solid:file-pdf" width="16" height="16" /> [IM19 Product Integration Guide](/component_documentation/IM19EI_v1.4.1.pdf)
 	- <Icon icon="fa7-solid:file-pdf" width="16" height="16" /> [JST-GH Connector Datasheet](/component_documentation/JST-GH_datasheet.pdf)
 	- <Icon icon="fa7-solid:file-pdf" width="16" height="16" /> [RT9080 Datasheet](/component_documentation/RT9080.pdf)
 - <Icon icon="mdi:github" width="16" height="16" /> [Hardware Repo](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout)

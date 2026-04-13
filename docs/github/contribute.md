@@ -4,7 +4,7 @@ description: Feel free to contribute to our open-source design and documentation
 ---
 
 ## Make an Augmentation!
-Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. [![Pull Requests Badge](https://img.shields.io/github/issues-pr/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/pulls "Pull Requests")
+Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. [![Pull Requests Badge](https://img.shields.io/github/issues-pr/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/pulls)
 
 
 
@@ -51,4 +51,4 @@ Let's provide some recognition to the contributors for this project!
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_IM19_IMU_Breakout)
 <br/>
-[![Pull Requests Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/pulls "Pull Requests")
+[![Pull Requests Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_IM19_IMU_Breakout.svg)](https://github.com/sparkfun/SparkFun_IM19_IMU_Breakout/pulls)
