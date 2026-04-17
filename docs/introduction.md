@@ -4,7 +4,7 @@ slug: /
 ---
 
 <figure>
-[![Hookup Guide - Thumbnail](/img/banner-hookup_guide.png)](/img/banner-hookup_guide.png)
+![Hookup Guide - Thumbnail](/img/banner-hookup_guide.png)
 </figure>
 
 
@@ -58,7 +58,7 @@ Jump to a specific section of the hookup guide:
 				label: 'Hardware Assembly',
 				description: 'Instructions on product integration',
 				href: 'hardware_assembly',
-				customProps: { iconify: 'mdi:crane' },
+				customProps: { iconify: 'material-symbols:precision-manufacturing' },
 			},
 			{
 				type: 'link',

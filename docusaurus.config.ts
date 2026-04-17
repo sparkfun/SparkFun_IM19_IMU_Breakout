@@ -60,11 +60,30 @@ const config: Config = {
     ],
   ],
 
+
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
+
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/banner-hookup_guide.png',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+
+
+    // Adds image zoom feature
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      },
     },
 
 
@@ -80,9 +99,9 @@ const config: Config = {
       // Optional: path for search page that enabled by default (`false` to disable it)
       searchPagePath: 'search',
 
-      // only search in the SparkFun DataLogger documentation - restrict on the section facet
+      // only search in the SparkFun IM19 IMU documentation - restrict on the section facet
       searchParameters: {
-        facetFilters: ['section:SparkFun_IM19_IMU Breakout'],
+        facetFilters: ['section:SparkFun_IM19_IMU_Breakout'],
       },
 
     },

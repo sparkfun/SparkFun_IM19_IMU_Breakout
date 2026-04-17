@@ -3,13 +3,16 @@ title: Software Overview
 description: A guide on recommended software
 ---
 
+import Link from '@docusaurus/Link';
+
+
 
 ## CH342 USB Driver
 The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the [manufacturer's website](https://www.wch-ic.com/search?q=CH342&t=downloads).
 
 
--   <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH343SER.EXE`](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
--   <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** [Download Page for <Icon icon="octicon:download-16" width="16" height="16" /> `CH341SER_MAC.ZIP`](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH343SER_EXE.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH343SER.EXE`</Link>
+- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH341SER_MAC.ZIP`</Link>
 
 
 :::info[Linux]
@@ -102,7 +105,8 @@ As of [v1.5.8](https://github.com/semuconsulting/PyGPSClient/releases/tag/v1.5.8
 :::info[Resources]
 For additional information, users can refer to the following resources for the PyGPSClient software:
 
-- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
+
+- [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
 - [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
 - [PyPI Project](https://pypi.org/project/pygpsclient/)
 
@@ -116,12 +120,12 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 ::::info[Installation Commands]
 Depending on how Python is installed on the computer, one of the following commands should allow users to install the software.
 
-- 
-	``` bash
+
+- ```bash
 	python3 -m pip install pygpsclient
 	```
-- 
-	``` bash
+
+- ```bash
 	pip install pygpsclient
 	```
 
@@ -143,7 +147,7 @@ Before users can connect to the IM19 breakout board, they will need to specify t
 
 
 <figure>
-[![UART Settings in PyGPSClient](/img/hookup_guide/pygpsclient-uart_settings-small.png)](/img/hookup_guide/pygpsclient-uart_settings-small.png)
+![UART Settings in PyGPSClient](/img/hookup_guide/pygpsclient-uart_settings-small.png)
 <figcaption>Specify the settings for the UART port in PyGPSClient.</figcaption>
 </figure>
 
@@ -175,12 +179,12 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 #### IM19 IMU Arduino Library
 The [SparkFun IM19 Tilt Sensor Arduino Library](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library) can be installed from the library manager in the Arduino IDE by searching for:
 
-```
+```txt
 SparkFun IM19 IMU Arduino Library
 ```
 
 <figure>
-[![Library listed in the library manager of the Arduino IDE](/img/hookup_guide/arduino_library.png)](/img/hookup_guide/arduino_library.png)
+![Library listed in the library manager of the Arduino IDE](/img/hookup_guide/arduino_library.png)
 <figcaption>SparkFun IM19 IMU Arduino Library in the library manager of the Arduino IDE.</figcaption>
 </figure>
 
@@ -190,6 +194,8 @@ SparkFun IM19 IMU Arduino Library
 For users who would like to manually download and install the library, the `*.zip` file can be accessed from the [GitHub repository](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library) or downloaded by clicking the button below.
 
 
-- <Icon icon="octicon:download-16" width="16" height="16" /> [Download the Arduino Library](https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library/archive/refs/heads/main.zip)
+<p className="text--center">
+<Link className="button button--medium button--primary" link="https://github.com/sparkfun/SparkFun_IM19_IMU_Arduino_Library/archive/refs/heads/main.zip"><Icon icon="octicon:download-16" width="16" height="16" /> Download the Arduino Library</Link>
+</p>
 
 :::
