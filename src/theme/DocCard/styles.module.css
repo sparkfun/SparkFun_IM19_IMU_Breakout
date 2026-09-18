@@ -25,6 +25,7 @@
 
 .cardDescription {
   font-size: 0.8rem;
+  white-space: normal; /* Allow text to wrap */
 }
 
 .iconify {
