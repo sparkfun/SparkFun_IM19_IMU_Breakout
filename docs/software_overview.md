@@ -11,8 +11,9 @@ import Link from '@docusaurus/Link';
 The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the [manufacturer's website](https://www.wch-ic.com/search?q=CH342&t=downloads).
 
 
-- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH343SER_EXE.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH343SER.EXE`</Link>
-- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** <Link className="button button--medium button--secondary" link="https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html"><Icon icon="octicon:download-16" width="16" height="16" /> Download Page for `CH341SER_MAC.ZIP`</Link>
+- <Icon icon="mdi:microsoft-windows" width="24" height="24" /> **Windows:** [<Link className="button button--medium button--secondary"><Icon icon="octicon:download-16" width="16" height="16" /> Download the `CH343SER.EXE`</Link>](pathname:///usb_driver/CH343SER.EXE)
+- <Icon icon="mdi:apple" width="24" height="24" /> **MacOS:** [<Link className="button button--medium button--secondary"><Icon icon="octicon:download-16" width="16" height="16" /> Download the `CH341SER_MAC.ZIP`</Link>](pathname:///usb_driver/CH341SER_MAC.ZIP)
+- <Icon icon="mdi:linux" width="24" height="24" /> **Linux:** A USB driver is not required for most Linux based operating systems
 
 
 :::info[Linux]
