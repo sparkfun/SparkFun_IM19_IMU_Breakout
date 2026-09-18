@@ -8,7 +8,8 @@ General Images
 --------------
 
 - `favicon.ico` - SparkFun flame logo (favicon)
-- `banner-*` - Banner images hookup guide
+- `banner.psd` - Photoshop Template to generate banner images
+- `banner-*.png` - Banner image for the product manual, hookup guide, and/or quick start guide
 
 
 
