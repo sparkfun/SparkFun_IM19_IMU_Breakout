@@ -193,6 +193,18 @@ figcaption {
 }
 
 
+/* Sets height of the logo in footer */
+.footer__logo {
+    height: 40px;
+}
+
+
+/* Reduced the padding of the footer */
+.footer {
+    padding: calc(var(--ifm-footer-padding-vertical) / 2) var(--ifm-footer-padding-horizontal);
+}
+
+
 /* Sets the size and alignment of iconify icons */
 /* Currently, only used in text and DocCards */
 .iconify {

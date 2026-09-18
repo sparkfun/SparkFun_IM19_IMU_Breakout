@@ -183,8 +183,8 @@ const config: Config = {
     </a>
   </td>
   <td style="border:none; padding:0;">
-    <a href="https://twitter.com/sparkfun" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on Twitter">
-    <img src=".icons/social-twitter.svg" class="social-image" alt="SparkFun on Twitter" width="32" height="32" />
+    <a href="https://x.com/sparkfun" target="_blank" rel="noreferrer noopener" aria-label="SparkFun on Twitter">
+    <img src=".icons/social-x.svg" class="social-image" alt="SparkFun on Twitter" width="32" height="32" />
     </a>
   </td>
   </tr>
