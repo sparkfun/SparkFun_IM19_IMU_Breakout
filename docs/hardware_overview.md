@@ -482,5 +482,5 @@ There are five jumpers on these board that can be used to easily modify the hard
 - **`MEAS`** - This jumper can be cut to to measure the current coming into the board from the USB connector or `VIN` pin.
 - **`VCC`** - This jumper can be modified to configure/disconnect the `VCC` pin of the [4-pin locking JST connector](#jst-connector) to/from `3V3` or `5V` power.
 	- By default, the jumper is configured to supply 3.3V.
-- **`CH342_EN`** - This jumper can be closed to disable the CH342 and disconnect it from the `UART1` and `UART2` ports of the IM19 attitude module. 
+- **`CH342_EN`** - This jumper can be closed to disable the CH342 and disconnect it from the `UART1` and `UART2` ports of the IM19 attitude module.
 	- Allows the breakout pins to be utilized; avoiding bus contention issues.
